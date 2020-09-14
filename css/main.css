@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, sans-serif;
+}
+
+
+/* Continue Reading*/
+
+#more1 {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+
+/* STYLING FOR HEADER SECTION*/
+
+.main_nav a,
+button {
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    font-size: 12px;
+}
+
+header {
+    text-align: center;
+    background-image: url('../images/header_bg01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 20px 15%;
+}
+
+.main_nav {
+    margin: 0 auto;
+}
+
+.main_nav a {
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+
+/*STYLING FOR MAIN DIV*/
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+/* FOR FIRST CONTAINER*/
+
+.text p {
+    margin-top: 30px;
+}
+
+.slideshow-container {
+    position: relative;
+    border: 1px solid rgb(201, 200, 200);
+}
+
+.text {
+    color: #000000;
+    font-size: 15px;
+    width: 30%;
+    top: 20%;
+    position: absolute;
+    right: 0;
+}
+
+.slideBtn {
+    background-color: white;
+    border: 1px solid green;
+    padding: 10px 30px 10px 30px;
+    color: green;
+    position: absolute;
+    margin: 20px;
+    width: 30%;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* FOR SECOND CONTAINER*/
+
+.lifestyle p {
+    padding-left: 10px;
+}
+
+.second-container h2 {
+    color: green;
+}
+
+.heading {
+    color: grey;
+}
+
+.subHeading {
+    color: green;
+    padding-left: 10px;
+}
+
+.connlifestyleBtn {
+    margin-top: 80px;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    padding: 10px 30px 10px 30px;
+}
+
+.second-container {
+    padding: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    float: left;
+    margin-top: 50px;
+}
+
+.leftbox {
+    float: left;
+    width: 33.3%;
+}
+
+.middleContainer {
+    float: left;
+    width: 33.3%;
+    padding-left: 8px;
+    border-left: 1px solid rgb(212, 212, 212);
+}
+
+.rightbox {
+    float: right;
+    width: 33.4%;
+    padding-left: 8px;
+    border-left: 1px solid rgb(212, 212, 212);
+}
+
+.middlebox {
+    float: left;
+    width: 50%;
+}
+
+.lifestyle img {
+    height: "140";
+    width: 100%;
+}
+
+
+/* FOR THIRD CONTAINER*/
+
+.customerDiv h2 {
+    color: green;
+}
+
+.customerDiv p {
+    margin-left: 10px;
+}
+
+.newsDiv h2,
+h3 {
+    color: green;
+}
+
+.newsDiv {
+    margin-left: 60px;
+}
+
+.thirdContainer {
+    float: left;
+    margin-top: 50px;
+}
+
+.thirdmiddlecontainer1 {
+    float: left;
+    width: 60%;
+}
+
+.thirdmiddlecontainer2 {
+    float: left;
+    width: 40%;
+}
+
+.customerimages img {
+    width: 200px;
+    height: 140px;
+    float: left;
+}
+
+
+/* FOURTH CONTAINER */
+
+.fourthContainer {
+    padding: 10px;
+    border: 1px solid rgb(201, 200, 200);
+    float: left;
+    margin-top: 50px;
+}
+
+.fourthInnerContainer1 {
+    float: left;
+    width: 50%;
+}
+
+.fourthInnerContainer1 img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.fourthInnerContainer1 img:hover {
+    transform: scale(1.1);
+}
+
+.fourthInnerContainer2 {
+    float: left;
+    width: 50%;
+}
+
+.fourthInnerContainer2 img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.fourthInnerContainer2 img:hover {
+    transform: scale(1.1);
+}
+
+.videoContainer {
+    margin-left: 40px;
+}
+
+.imageContainer {
+    margin-right: 40px;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+    margin-top: 50px;
+    padding: 10px 30px 40px 80px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(107, 106, 106);
+}
+
+footer a {
+    font-size: 12px;
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+    float: right;
+}
+
+
+/*RESPONSICE FOR TABLETS -- width: 768px*/
+
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 11px;
+    }
+    .text {
+        font-size: 10px;
+        width: 32%;
+    }
+    .text p {
+        margin-top: 10px;
+    }
+    .fourthInnerContainer1 {
+        width: 100%;
+    }
+    .fourthInnerContainer2 {
+        width: 100%;
+    }
+    .videoContainer {
+        margin-left: 0px;
+    }
+    .imageContainer {
+        margin-right: 0px;
+    }
+    .slideBtn {
+        font-size: 8px;
+        padding: 4px 0 4px 0;
+        margin: 10px;
+    }
+    .slideBtn img {
+        width: 6px;
+        height: 6px;
+    }
+    .connlifestyleBtn {
+        font-size: 8px;
+        padding: 4px 10px 4px 10px;
+    }
+    .connlifestyleBtn img {
+        width: 6px;
+        height: 6px;
+    }
+    .heading {
+        font-size: 13px;
+    }
+    .subHeading {
+        padding-left: 2px;
+        font-size: 11px;
+        color: green;
+    }
+    .customerimages img {
+        width: 170px;
+        height: 130px;
+    }
+}
+
+
+/*RESPONSIVE FOR MOBILE width: 600px*/
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 8px;
+    }
+    .text {
+        font-size: 7px;
+        width: 32%;
+    }
+    .slideBtn {
+        font-size: 8px;
+        padding: 4px 0 4px 0;
+        margin: 10px;
+    }
+    .slideBtn img {
+        width: 6px;
+        height: 6px;
+    }
+    .connlifestyleBtn {
+        font-size: 8px;
+        padding: 4px 0 4px 0;
+    }
+    .connlifestyleBtn img {
+        width: 6px;
+        height: 6px;
+    }
+    .heading {
+        font-size: 11px;
+    }
+    .subHeading {
+        padding-left: 2px;
+        font-size: 8px;
+        color: green;
+    }
+    .customerimages img {
+        width: 135px;
+        height: 110px;
+    }
+    .newsDiv h2 {
+        font-size: 15px;
+    }
+    .newsDiv h3 {
+        font-size: 12px;
+    }
+    .customerDiv h2 {
+        color: green;
+        font-size: 15px;
+    }
+}
+
+
+/*RESPONSIVE FOR MOBILE width : 500px*/
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 6px;
+        line-height: 7px;
+    }
+    header img {
+        width: 60px;
+        height: 20px;
+    }
+    .text p {
+        margin-top: 4px;
+        font-size: 4px;
+        line-height: 5px;
+    }
+    .text {
+        font-size: 5px;
+        width: 32%;
+    }
+    .lifestyle p {
+        padding-left: 0;
+    }
+    .slideBtn {
+        font-size: 5px;
+        padding: 2px 0 2px 0;
+        margin: 5px;
+    }
+    .slideBtn img {
+        width: 3px;
+        height: 3px;
+    }
+    .connlifestyleBtn {
+        font-size: 5px;
+        padding: 2px 2px 2px 2px;
+        margin-top: 35px;
+    }
+    .connlifestyleBtn img {
+        width: 3px;
+        height: 3px;
+    }
+    .heading {
+        padding-left: 2px;
+        font-size: 5px;
+    }
+    .subHeading {
+        padding-left: 2px;
+        font-size: 5px;
+        color: green;
+    }
+    .customerimages img {
+        width: 60px;
+        height: 50px;
+    }
+    .newsDiv h2 {
+        font-size: 8px;
+    }
+    .newsDiv h3 {
+        font-size: 6px;
+    }
+    .customerDiv h2 {
+        color: green;
+        font-size: 10px;
+    }
+    .thirdmiddlecontainer1 {
+        float: left;
+        width: 50%;
+    }
+    .thirdmiddlecontainer2 {
+        float: left;
+        width: 50%;
+    }
+    .middleContainer {
+        padding-left: 0;
+    }
+    .rightbox {
+        padding-left: 0;
+    }
+    .videoContainer h2,
+    .imageContainer h2 {
+        font-size: 10px;
+    }
+    .html5lightbox img {
+        width: 80px;
+        height: 80px;
+    }
+    .newsDiv h6 {
+        font-size: 4px;
+    }
+    .newsDiv button {
+        font-size: 4px;
+    }
+    .second-container h2 {
+        font-size: 10px;
+    }
+    .newsDiv {
+        margin-left: 30px;
+    }
+    .customerDiv p {
+        margin-left: 0px;
+    }
+    .main_nav a {
+        padding: 1px;
+        font-size: 5px;
+    }
+    footer a {
+        font-size: 7px;
+    }
+    footer p {
+        margin-top: 20px;
+        font-size: 7px;
+    }
+}
